@@ -1,0 +1,33 @@
+{
+  "name": "is-git-repo",
+  "version": "1.0.0",
+  "description": "Checks whether the given directory is git repo.",
+  "main": "index.js",
+  "scripts": {
+    "prepush": "npm test",
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekimsit/is-git-repo.git"
+  },
+  "keywords": [
+    "git",
+    "util"
+  ],
+  "author": "Vivek Poddar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivekimsit/is-git-repo/issues"
+  },
+  "homepage": "https://github.com/vivekimsit/is-git-repo#readme",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  },
+  "dependencies": {
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "space": true
+  }
+}
