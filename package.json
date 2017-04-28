@@ -1,5 +1,5 @@
 {
-  "name": "is-git-repo",
+  "name": "is-git-directory",
   "version": "1.0.0",
   "description": "Checks whether the given directory is git repo.",
   "main": "index.js",
