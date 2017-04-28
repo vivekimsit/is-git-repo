@@ -6,9 +6,9 @@
 ## Usage
 
 ```js
-const isGitRepo = require('is-git-repo');
+const isGitDir = require('is-git-directory');
 
-isGitRepo(path).then(result => console.log(result))
+isGitDir(path).then(result => console.log(result))
 ```
 
 ## License
