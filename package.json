@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/vivekimsit/is-git-repo#readme",
   "devDependencies": {
-    "ava": "^0.19.1"
+    "ava": "^0.19.1",
+    "husky": "^0.13.3"
   },
   "dependencies": {
     "xo": "^0.18.1"
