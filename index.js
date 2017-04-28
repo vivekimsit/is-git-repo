@@ -13,7 +13,7 @@ const promiseExec = path =>
     }
   });
 
-module.exports = (dir = process.cwd()) =>
-  promiseExec(resolve(dir, '.git'))
+module.exports = dir =>
+  promiseExec(resolve(dir || process.cwd(), '.git'))
     .then(result => result)
     .catch(() => false);

@@ -4,8 +4,9 @@
   "description": "Checks whether the given directory is git repo.",
   "main": "index.js",
   "scripts": {
+    "precommit": "xo && npm test",
     "prepush": "npm test",
-    "test": "xo && ava"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
